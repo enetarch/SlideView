@@ -1,0 +1,28 @@
+var image_list = 
+[
+	{	
+		"type" : "movie",
+		"url" : "https://player.vimeo.com/external/132763328.hd.mp4?s=91420452872da2d5a6e6a200605e774b&profile_id=113",
+		"caption" : "",
+	},
+	{	
+		"type" : "image",
+		"url" : "images/rear_nakid_choke.jpg",
+		"caption" : "<h3>Rear Nakid Choke</h3><p>applied when you've taken your opponents back</p>",
+	},
+	{	
+		"type" : "image",
+		"url" : "images/SuperMan_Reversal.jpg",
+		"caption" : "<h3>SuperMan Reversal</h3><p>used from standing position to reverse an opponent</p>",
+	},
+	{	
+		"type" : "image",
+		"url" : "images/TaioToshi_Throw.gif",
+		"caption" : "<h3>Taio Toshi_Throw</h3><p>used from a standing position to throw an opponent</p>",
+	},
+	{	
+		"type" : "image",
+		"url" : "images/triangle_choke.gif",
+		"caption" : "<h3>Triangle Choke</h3><p>applied from guard normally, to choke out an opponent</p>",
+	},
+];

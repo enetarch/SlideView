@@ -1,0 +1,56 @@
+<html>
+<link rel="stylesheet" href="slideshow.css">
+
+<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="image-list.json"></script>
+<script type="text/javascript" src="slideshow.js"></script>
+
+<body>
+	<div id="slideShow-control" class="css-slideshow-control">
+		<div id="slide-selector" class="" style="block"></div>
+		
+		<div id="slides" class="css-slideshow"></div>
+		
+		<div id="nextprev" style="block">
+			<button id="button-prev" src="left.jpg" alt="left">left</button>
+			<button id="button-next" src="right.jpg" alt="right">right</button>
+		</div>
+	</div>
+</body>
+<html>
+
+<script id="slideShow-movie-template" type="text/html">
+	<figure id="movie" class="" data="[?=t ]">
+		<video id="" class="" controls>
+			<source src="[?=image ?]" type="video/mp4">
+			Your video does not support the video tag
+		</video>
+		<figcaption>[?=caption ?]</figcaption>
+	</figure>
+</script>
+
+<script id="slideShow-image-template" type="text/html">
+	<figure id="slide" class="" data="[?=t ]">
+		<img id="" class="" src="[?=image ?]">
+		<figcaption>[?=caption ?]</figcaption>
+	</figure>
+</script>
+
+<script id="slideShow-selector-template" type="text/html">
+	<input id="current-slide" class="[?=class ?]" type="radio" name="current-slide" value="[?=value ?]">
+</script>
+
+<script type="text/javascript">
+
+var fader = null;
+
+$(function ()
+{
+	fader = new slideShow 
+	(
+		".css-slideshow-control", 
+		image_list
+	);
+});
+
+</script>
